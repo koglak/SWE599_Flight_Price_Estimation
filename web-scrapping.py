@@ -54,6 +54,12 @@ count=0
 # driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 options = Options()
 options.headless = True
+options.add_argument("--headless")
+options.add_argument("--disalbe-gpu")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-extensions")
+options.add_argument("--disable-dev-shm-usage")
+
 # options.add_argument("--no-sandbox")
 df = pd.DataFrame()
 
