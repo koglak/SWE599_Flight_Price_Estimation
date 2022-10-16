@@ -3,4 +3,4 @@
 sudo apt-get update
 sudo apt-get install -y pip
 
-pip3 install -r requirements.txt -t modules
+pip3 install -r requirements.txt
