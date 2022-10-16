@@ -51,10 +51,10 @@ for date_len in range(0,len(date_list)):
         URLs.append(url)
 
 count=0
-#driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+# driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 options = Options()
 options.headless = True
-options.add_argument("--no-sandbox")
+# options.add_argument("--no-sandbox")
 df = pd.DataFrame()
 
 for num in range(0,len(URLs)):
